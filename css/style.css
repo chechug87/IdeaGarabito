@@ -1,0 +1,154 @@
+#bodyIndex {
+  background-image: url(../Imagenes/pexels-jill-wellington-3776939.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0; }
+
+.contenedorTitulo {
+  height: 100vh; }
+
+.contenedorTitulo h1 {
+  margin-top: 150px;
+  font-family: 'Pacifico', cursive;
+  font-size: 150px;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .contenedorTitulo h1 {
+    margin-top: 200px;
+    font-size: 60px; } }
+
+#bodyNosotros {
+  background: #f0bcbc; }
+
+.container {
+  height: 100vh; }
+
+.colNosotros {
+  text-align: center;
+  margin-top: 50px;
+  color: #202020; }
+
+.colDescripcion {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #202020; }
+
+.bodyGaleria {
+  background: #f0bcbc;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.tituloGaleria, .tituloProducto {
+  text-align: center;
+  padding: 20px;
+  color: #202020; }
+
+.contenedor-galeria {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-bottom: auto;
+  margin-left: 150px;
+  margin-right: 150px; }
+
+.galeria__img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  cursor: pointer;
+  filter: brightness(60%); }
+
+@keyframes escalar {
+  to {
+    transform: scale(1); }
+  from {
+    transform: scale(1.05); } }
+
+.galeria__img:hover {
+  filter: brightness(100%); }
+
+.bodyProducto {
+  background: #f0bcbc; }
+
+.productos {
+  height: 100vh; }
+
+#bodyContacto {
+  background-image: url(../Imagenes/pexels-suzy-hazelwood-1184265.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0; }
+
+#contactoForm {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  font-family: monospace; }
+
+#formh2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.formImput, .formTextarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+.formTextarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#boton {
+  background: #424b63;
+  color: white;
+  padding: 10px; }
+
+#boton:hover {
+  cursor: pointer; }
+
+@media (max-width: 480px) {
+  #contactoForm {
+    width: 100%; } }
+
+.footer {
+  background: #202020;
+  color: white;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto; }
+
+.footer ul {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+  list-style: none; }
+
+.footer ul a {
+  color: #fff; }
+
+.footer ul a:hover {
+  color: lightcoral; }
