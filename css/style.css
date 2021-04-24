@@ -74,7 +74,8 @@
   filter: brightness(60%); }
 
 .bodyProducto {
-  background: #f0bcbc; }
+  background: #f0bcbc;
+  height: 100vh; }
 
 .container--p {
   width: 100%;
@@ -83,7 +84,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  height: 100vh; }
+  padding-bottom: 3rem; }
 
 .container--p__card {
   width: 330px;
