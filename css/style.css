@@ -181,7 +181,10 @@ img {
   padding: 7px;
   box-sizing: border-box;
   font-size: 17px;
-  border: none; }
+  border: 2px solid #f0bcbc;
+  outline: none; }
+  .formImput:focus-within, .formTextarea:focus-within {
+    box-shadow: 0 0 7px lightpink; }
 
 .formTextarea {
   min-height: 100px;
@@ -195,7 +198,8 @@ img {
   font-weight: bold; }
 
 #boton:hover, #boton:focus {
-  background-color: #d49e9e; }
+  background-color: linen;
+  color: black; }
 
 @media (max-width: 480px) {
   #contactoForm {
