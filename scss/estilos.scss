@@ -11,9 +11,10 @@ $font-family: 'Pacifico', cursive;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px+10px;
+    margin-bottom: 20px;
     color: #202020;
     font-family: $font-family;
+    font-size: 50px;
 }
 
 .btn {
@@ -26,6 +27,40 @@ $font-family: 'Pacifico', cursive;
         background-color: linen;
     }      
 }
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: white;
+    color: $colorPpal;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color: white;
+    background: $colorPpal;
+}
+
+.form  {
+    margin-right: 3px;
+    border-radius: 5px;
+    border: 2px solid #f0bcbc;
+    outline: none;
+}
+
+.form:focus-within {
+    box-shadow: 0 0 5px lightpink;
+}
+
 
 #bodyIndex {
     background-image: url(../Imagenes/pexels-jill-wellington-3776939.jpg);
@@ -60,16 +95,24 @@ $font-family: 'Pacifico', cursive;
     
 }
 
-.colNosotros {
+.tituloNosotros, .tituloProductos, .tituloGaleria {
     @include titulos;
 }
     
+.cajaNosotros {
+    display: flex;
+    align-content: space-between;
+}
 
-.colDescripcion {
+.cajaNosotros > div {
     text-align: justify;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 3rem;
+    margin: 3rem;
     color: #000000;
+}
+
+img {
+    width: 100%;
 }
 
 .bodyGaleria {
@@ -199,7 +242,6 @@ $font-family: 'Pacifico', cursive;
     color: white;
     padding: 10px;
     font-weight: bold;
-
 }
 
 #boton:hover, #boton:focus {
