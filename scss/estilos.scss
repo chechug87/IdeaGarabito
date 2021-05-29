@@ -145,6 +145,10 @@ img {
     filter: brightness(60%);
 }
 
+#imgslide {
+    object-fit: cover;
+}
+
 .bodyProducto {
     background: $colorPpal;
     @include fondo

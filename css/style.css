@@ -110,6 +110,9 @@ img {
   cursor: pointer;
   filter: brightness(60%); }
 
+#imgslide {
+  object-fit: cover; }
+
 .bodyProducto {
   background: #f0bcbc;
   height: 100vh; }
